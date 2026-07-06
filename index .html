@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">abhishek<span>.</span>dev</div>
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">say hi →</a>
+    </nav>
+  </header>
+
+  <section class="hero" style="border-top:none; padding-top:80px;">
+    <div class="wrap" style="padding:0;">
+      <div class="eyebrow">available for work</div>
+      <h1>Building fast, clean<br>interfaces for the <span class="accent">web.</span></h1>
+      <p class="lede">Frontend Developer specializing in React and modern JavaScript — turning designs into
+        pixel-accurate, interactive experiences.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View work →</a>
+        <a class="btn btn-secondary" href="https://github.com/abhishek01826" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">whoami.sh</span>
+        </div>
+        <div class="terminal-body" id="terminalBody">
+          <div class="line"><span class="prompt">➜</span> <span class="path">~/portfolio</span> whoami</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-tag">01</div>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>I'm <strong>Abhishek</strong>, a frontend developer who enjoys turning static designs into fully working,
+            responsive interfaces — matching layouts, interactions, and micro-details exactly as intended.</p>
+          <p>My recent work has focused on faithfully rebuilding real-world UI briefs from scratch: filtering systems,
+            size/color selectors, accordions, and cart state — all with plain HTML, CSS, and JavaScript before reaching
+            for a framework.</p>
+          <p>Comfortable across the stack with <strong>React</strong> and <strong>Node.js</strong>, and always looking
+            to sharpen the gap between a design file and a production-ready page.</p>
+        </div>
+        <div class="stack-box">
+          <h3>Tech Stack</h3>
+          <ul class="stack-list">
+            <li>HTML5 <span class="level">●●●●●</span></li>
+            <li>CSS3 <span class="level">●●●●●</span></li>
+            <li>JavaScript <span class="level">●●●●○</span></li>
+            <li>React <span class="level">●●●●○</span></li>
+            <li>Node.js <span class="level">●●●○○</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-tag">02</div>
+        <h2>Selected Projects</h2>
+      </div>
+
+      <div class="project-card">
+        <div class="project-head">
+          <h3>To-Do List</h3>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">Live ↗</a>
+            <a href="https://github.com/abhishek01826/To-Do-List-" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p>A clean to-do list app to add, edit, complete, and delete tasks — with local storage so your list persists
+            across sessions.</p>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-head">
+          <h3>SkyCast</h3>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">Live ↗</a>
+            <a href="https://github.com/abhishek01826/skyCast-" target="_blank" rel="noopener">Code ↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p>A weather app with real-time forecasts, auto location detection, and an interactive animated assistant that
+            reacts to current conditions.</p>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-box">
+        <h2>Let's build something.</h2>
+        <p>Open to frontend roles and freelance projects — drop a message anytime.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:agnihotriabhishek425@gmail.com">Email me →</a>
+          <a class="btn btn-secondary" href="https://github.com/abhishek01826" target="_blank" rel="noopener">GitHub
+            ↗</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/abhishekagnihotri18/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    built by <span>Abhishek</span> — © <span id="year"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
